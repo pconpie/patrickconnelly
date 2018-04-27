@@ -14,8 +14,6 @@
 	<script defer src="./static/fontawesome/fontawesome-all.js"></script>
 	<link href="./static/fontawesome/fa-svg-with-js.css">
 	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-
-
 </head>
 
 <body>
@@ -25,7 +23,27 @@
 				<div class="logo"><a href="index.html">Road Trip <span>by TEMPLATED</span></a></div>
 				<a href="#menu"><span>Menu</span></a>
 			</header> -->
-
+	<div class="nav-bar">
+			<div class="inner">
+				<ul class="nav-list">
+					<a id="nav-menu"><i class="fas fa-bars fa-2x"></i></a>
+					<div class="nav-list-item-container">
+						<li class="nav-list-item">
+							<a class="more" href="">Home</a>
+						</li>
+						<li class="nav-list-item">
+							<a class="more" href="#about_me">About me</a>
+						</li>
+						<li class="nav-list-item">
+							<a class="more" href="#projects">Projects</a>
+						</li>
+						<li class="nav-list-item">
+							<a class="more" href="#photography">Photography</a>
+						</li>
+					</div>
+				</ul>
+			</div>
+	</div>
 	<section id="banner" class="bg-img" data-bg="banner.JPG">
 		<div class="inner">
 			<header>
@@ -33,28 +51,11 @@
 				<h4>Software Developer, World Traveler, Photographer</h4>
 			</header>
 		</div>
-		<a href="#one" class="more">Learn More</a>
+		<a href="#about_me" class="more">Learn More</a>
 	</section>
 
-	<!-- One -->
-	<section id="one" class="wrapper post bg-img" data-bg="banner2.JPG">
-			<ul class="nav-list">
-					<li class="nav-list-item">
-						<a>Navigation</a>
-					</li>
-					<li class="nav-list-item">
-						<a>Home</a>
-					</li>
-					<li class="nav-list-item">
-						<a>About me</a>
-					</li>
-					<li class="nav-list-item">
-						<a>Projects</a>
-					</li>
-					<li class="nav-list-item">
-						<a>Photography</a>
-					</li>
-				</ul>
+	<!-- about_me -->
+	<section id="about_me" class="wrapper post bg-img" data-bg="banner2.JPG">
 		<div class="inner">
 			<article class="box">
 				<header>
@@ -67,11 +68,9 @@
 						I also have experience with PostgreSQL, React.js, JQuery, Bootstrap, and RESTful API's. I am also learning Java, PHP,
 						vue.js, MySQL, and many more new technologies!
 						<br> I encourage you to check out my LinkedIn profile for more information about my background. Also peruse my Github page
-						to view all of my code and projects I have been working on lately. My most recent projects are a trail finding application,
-						<a href="https://trailpal.herokuapp.com/" target="_blank">Trail Pal</a>, and working with the Twin Cities Bicycling Club to develop a ride management and stat tracking
-						<a href="https://tcbc-fomalhaut.herokuapp.com/"
-						    target="_blank">application</a>. If you want to contact me for more information about these applications or for any projects you have,
-						please send me an email!
+						to view all of my code and projects I have been working on lately. My most recent projects are displayed below, as
+						well as some of my favorite pictures recently. If you want to contact me for more information about these applications
+						or for any projects you have, please send me an email!
 					</p>
 				</div>
 				<footer>
@@ -88,11 +87,11 @@
 				</footer>
 			</article>
 		</div>
-		<!-- <a href="#two" class="more">Learn More</a> -->
+		<a href="#projects" class="more">Learn More</a>
 	</section>
 
-	<!-- Two -->
-	<section id="two" class="wrapper post bg-img" data-bg="banner3.JPG">
+	<!-- projects -->
+	<section id="projects" class="wrapper post bg-img" data-bg="banner3.JPG">
 		<div class="inner">
 			<article class="box">
 				<header>
@@ -105,13 +104,23 @@
 					</p>
 					<ul class="projects-list">
 						<li class="project-item">
-							<a>Trail Pal</a>
+							<a href="https://trailpal.herokuapp.com/" target="_blank">Trail Pal</a>
+							<p>Trail Pal is a trail finding app designed to make it easy to locate trails by state and build a community around the
+								trails you love.
+							</p>
 						</li>
 						<li class="project-item">
-							<a>Twin Cities Bicycling Club</a>
+							<a href="https://tcbc-fomalhaut.herokuapp.com/" target="_blank">Twin Cities Bicycling Club</a>
+							<p>This application was designed to streamline the user experience for Twin Cities Bicycle Club members. It is easy to
+								create, find, and sign up for ride events as well as track your personal ride statistics.
+
+							</p>
 						</li>
 						<li class="project-item">
 							<a>CustoMessage</a>
+							<p>CustoMessage is a simple clean messaging application that allows the user to fully customize their own experience.
+
+							</p>
 						</li>
 					</ul>
 				</div>
@@ -120,10 +129,10 @@
 				</footer>
 			</article>
 		</div>
-		<!-- <a href="#two" class="more">Learn More</a> -->
+		<a href="#photography" class="more">Learn More</a>
 	</section>
 
-	<section id="three" class="wrapper post bg-img" data-bg="banner4.JPG">
+	<section id="photography" class="wrapper post bg-img" data-bg="banner4.JPG">
 		<div class="inner">
 			<article class="box">
 				<header>
@@ -134,15 +143,36 @@
 					<p>
 						Samples
 					</p>
-					<ul class="projects-list">
-						<li class="project-item">
-							<a>Trail Pal</a>
+					<ul class="sample-image-list">
+						<li class="sample-image-item">
+							<div class="sample-image-div">
+								<img class="sample-image" src="images/banner3.JPG" />
+								<div class="sample-image-text-back">
+									<p style="opacity: 1;">
+										Cushendun Caves, <br/>Northern Ireland
+									</p>
+								</div>
+							</div>
 						</li>
-						<li class="project-item">
-							<a>Twin Cities Bicycling Club</a>
+						<li class="sample-image-item">
+							<div class="sample-image-div">
+								<img class="sample-image" src="images/banner2.JPG" />
+								<div class="sample-image-text-back">
+									<p>
+										San Juan Islands, Washington
+									</p>
+								</div>
+							</div>
 						</li>
-						<li class="project-item">
-							<a>CustoMessage</a>
+						<li class="sample-image-item">
+							<div class="sample-image-div">
+								<img class="sample-image" src="images/banner5.JPG" />
+								<div class="sample-image-text-back">
+									<p>
+										Vintgar Gorge, Slovenia
+									</p>
+								</div>
+							</div>
 						</li>
 					</ul>
 				</div>
@@ -184,7 +214,8 @@
 		-->
 
 			<div class="copyright">
-				&copy; Patrick Connelly, Design:
+				&copy; 2018 Patrick Connelly
+				<br/> Design:
 				<a href="https://templated.co" style="text-decoration:none;">Templated</a>.
 				<!-- Images: <a href="https://unsplash.com">Unsplash</a>. -->
 			</div>
