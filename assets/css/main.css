@@ -4462,6 +4462,12 @@
 	align-items: center;
 	justify-content: space-evenly;
 }
-.project-item{
+.project-item, .nav-list-item{
 	list-style: none;
+}
+.nav-list{
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: center;
 }
