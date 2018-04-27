@@ -4455,3 +4455,13 @@
 			}
 
 		}
+
+.projects-list{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.project-item{
+	list-style: none;
+}
