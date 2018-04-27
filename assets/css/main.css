@@ -4482,8 +4482,8 @@
 	align-items: start;
 	justify-content: center;
 }
-.nav-list-item{
-}
+/* .nav-list-item{
+} */
 .nav-list-item-container{
 	display: none;
     padding: 9px;
