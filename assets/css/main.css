@@ -4456,15 +4456,6 @@
 
 		}
 
-.projects-list{
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: space-evenly;
-}
-.project-item{
-	width: 33%;
-}
 .project-item, .nav-list-item{
 	list-style: none;
 }
@@ -4512,21 +4503,18 @@
 }
 .sample-image-item{
 	list-style: none;
-	display: flex;
-    flex-direction: column;
-    align-items: center;
-	justify-content: center;
-	padding: 0;
-	width: 33%;
+	/* padding: 0; */
 }
-.sample-image-div{
+
+transition: all .3s ease;
+
+/* .sample-image-div{
 	height: 75%;
 	width: 80%;
-}
+} */
 .sample-image{
 	height: 100%;
 	width: 100%;
-	transition: all .3s ease;
 	overflow: hidden;
 }
 .sample-image-div:hover .sample-image{
@@ -4542,4 +4530,29 @@
     background-color: rgba(0, 0, 0, 0.6);
 	z-index: 9999;
 	transform:scale(1.5);
+}
+
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.projects-list{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
 }
