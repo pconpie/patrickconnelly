@@ -67,11 +67,6 @@
 
 		}
 
-		// Menu
-			$('#nav-menu').on('click', function(){
-				$('.nav-list-item-container').toggle();
-			})
-
 		// Get BG Image
 
 		if ($(".bg-img").length) {
@@ -87,7 +82,6 @@
 
 
 		}
-
 		
 
 		// Posts
