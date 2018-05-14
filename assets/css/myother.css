@@ -147,3 +147,15 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
 }
+#about_me .inner{
+	z-index: 20;
+}
+#about_me.low-index{
+	z-index: 5;
+}
+#projects .inner{
+	z-index: 20;
+}
+#projects.low-index{
+	z-index: 5;
+}
